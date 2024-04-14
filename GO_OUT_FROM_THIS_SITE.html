@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Set a clean font for the whole page */
+            background-color: #f4f4f4; /* Light grey background for the page */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header, footer {
+            background-color: #333; /* Dark background for header and footer */
+            color: white; /* White text for visibility */
+            padding: 10px 20px; /* Padding around text */
+            text-align: center; /* Center-align text */
+        }
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center main content horizontally */
+            justify-content: center; /* Center main content vertically */
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+            color: #333; /* Dark grey color for headings */
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px; /* Larger font size for better readability */
+            border: none;
+            border-radius: 5px;
+            background-color: #2f28ff; /* Blue background for button */
+            color: white;
+        }
+        button:disabled {
+            background-color: #a5a1ff; /* Grey out the button when disabled */
+            cursor: not-allowed; /* Show that the button is disabled */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        I think the button must be clicked in 2032
+    </header>
+    <main>
+        <h1>GoSeD</h1>
+        <button disabled>Complete</button>
+    </main>
+    <footer>
+        Wait for it.
+    </footer>
+</body>
+</html>
